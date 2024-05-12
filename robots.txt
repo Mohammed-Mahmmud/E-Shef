@@ -1,0 +1,5 @@
+# 
+User-agent: *
+Disallow: 
+Disallow: /cgi-bin/
+Sitemap: https://e-shef.com/sitemap.xml

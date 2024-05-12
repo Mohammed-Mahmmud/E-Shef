@@ -1,0 +1,2 @@
+<a href="<?php echo e($route??''); ?>" class="btn btn-primary shadow btn-xs sharp me-1"><i class="fa fa-eye"></i></a>
+<?php /**PATH /home/f1qsj68b8fja/public_html/resources/views/components/admin/eye.blade.php ENDPATH**/ ?>
