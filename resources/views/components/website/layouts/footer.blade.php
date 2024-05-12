@@ -1,4 +1,4 @@
-<footer class="footer-wrapper footer-layout1 overflow-hidden background-image" style="background-image: url('website/assets/img/footer/footer-top4-bg.png');">
+<footer class="footer-wrapper footer-layout1 overflow-hidden background-image" style="background-image: asset('website/assets/img/footer/footer-top4-bg.png');">
     <div class="container">
         <div class="footer-top">
             <div class="row gy-4 align-items-center justify-content-center">
@@ -21,7 +21,6 @@
                         <div class="info-card_content">
                             <h4 class="info-card_title">Call us</h4>
                             <p class="info-card_text">Telephone : <a href="tel:{{SettingHelper::settings('Phone')}}">{{SettingHelper::settings('Phone')}}</a></p>
-                            {{-- <p class="info-card_text">Mobile : <a href="tel:0029129102320">{{SettingHelper::settings('Email')}}</a></p> --}}
                         </div>
                     </div>
                 </div>

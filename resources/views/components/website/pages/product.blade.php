@@ -109,12 +109,12 @@
                             <div class="insta-feed">
                                  @if (!empty($product->getFirstMediaUrl('products')))
                                 <a href="#" class="viewImage"><img src="{{ asset($product->getFirstMediaUrl('products') )}}" alt="{{$product->name}}-img">
-                                <i class="fab fa-instagram"></i></a>
+                                <i class="fas fa-at"></i></a>
                                 @endif
                                  @if (!empty($product->getFirstMediaUrl('products2')))
                                 <a href="#" class="viewImage">
                                 <img src="{{ asset($product->getFirstMediaUrl('products2') )}}" alt="{{$product->name}}-img2">
-                                <i class="fab fa-instagram"></i></a>
+                                <i class="fas fa-at"></i></a>
                                @endif
                             </div>
                         </div>
